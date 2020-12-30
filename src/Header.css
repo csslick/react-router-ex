@@ -1,0 +1,23 @@
+ul {
+  margin: 0;
+  padding: 0; 
+  list-style-type: none;
+}
+nav {
+  background: #000;
+  overflow: hidden;
+}
+nav a {
+  color: #fff;
+}
+
+nav > ul > li {
+  float: left;
+  width: 100px;
+}
+nav .sub {
+  display: none;
+}
+nav > ul > li:hover .sub{
+  display: block;
+}
